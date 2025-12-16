@@ -75,6 +75,14 @@ The analysis is designed to reflect systems-level spatial biology approaches com
 
 These results support a model of spatially organized tumour microenvironments rather than homogeneous mixing.
 
+
+## Data Availability
+
+Raw 10x Visium outputs are not included due to size and licensing constraints.
+
+This repository provides processed AnnData objects (`data/processed/`) that enable full reproduction of all figures and analyses presented. Raw data can be obtained from the original 10x Genomics Visium breast cancer dataset.
+
+
 ---
 
 
