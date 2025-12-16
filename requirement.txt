@@ -1,0 +1,27 @@
+python>=3.10
+
+# Core scientific stack
+numpy>=1.23
+pandas>=1.5
+scipy>=1.9
+matplotlib>=3.6
+seaborn>=0.12
+
+# Single-cell & spatial transcriptomics
+scanpy>=1.9.6
+anndata>=0.9.2
+squidpy>=1.4.1
+scikit-learn>=1.2
+
+# Graphs & clustering
+igraph>=0.10
+leidenalg>=0.10
+
+# Image & spatial utilities
+scikit-image>=0.21
+tifffile>=2023.7.10
+
+# Performance & IO
+numba>=0.57
+h5py>=3.9
+tqdm>=4.65

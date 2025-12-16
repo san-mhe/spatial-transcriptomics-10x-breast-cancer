@@ -1,0 +1,28 @@
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Raw Visium outputs (keep only processed)
+data/**/outs/
+data/raw/
+
+# Large AnnData intermediates if needed
+*.h5ad
+
+# Logs
+*.log
