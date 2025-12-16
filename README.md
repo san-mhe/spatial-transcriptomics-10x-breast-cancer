@@ -5,6 +5,8 @@
 
 This project presents a reproducible spatial transcriptomics analysis pipeline applied to a 10x Genomics Visium breast cancer tissue section. The workflow focuses on rigorous quality control, transcriptional domain discovery, and quantitative spatial interaction analysis to characterise tumour microenvironment architecture.
 
+Understanding how transcriptionally distinct tumour, immune, and stromal domains spatially organize and interface is critical for interpreting tumour microenvironment structure and potential functional interactions.
+
 The analysis is designed to reflect systems-level spatial biology approaches commonly used in research institutes such as A*STAR Genome Institute of Singapore (GIS).
 
 ---
