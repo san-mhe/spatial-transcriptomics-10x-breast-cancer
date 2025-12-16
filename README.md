@@ -76,14 +76,20 @@ The analysis is designed to reflect systems-level spatial biology approaches com
 These results support a model of spatially organized tumour microenvironments rather than homogeneous mixing.
 
 
-## Data Availability
+# Data notes
 
-Raw 10x Visium outputs are not included due to size and licensing constraints.
+This repository does not include raw 10x Visium outputs or processed `.h5ad` files due to GitHub file size limits.
 
-This repository provides processed AnnData objects (`data/processed/`) that enable full reproduction of all figures and analyses presented. Raw data can be obtained from the original 10x Genomics Visium breast cancer dataset.
+## How to reproduce
+1. Download the 10x Genomics Visium Breast Cancer dataset (Block A, Section 1) from the official 10x Genomics resource.
+2. Place the Space Ranger `outs/` directory at:
+   `data/visium_breast_cancer_blockA_section1/outs/`
+3. Run notebooks in order:
+   - `notebooks/01_load_qc.ipynb`
+   - `notebooks/02_norm_hvg_pca_graph.ipynb`
+   - `notebooks/03_clustering_domains.ipynb`
+   - `notebooks/04_spatial_interactions.ipynb`
 
-
----
-
+All figures in `figures/` can be regenerated deterministically.
 
 
