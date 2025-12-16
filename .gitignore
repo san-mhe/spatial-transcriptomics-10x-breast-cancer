@@ -21,6 +21,10 @@ Thumbs.db
 data/**/outs/
 data/raw/
 
+# Ignore everything else in data EXCEPT processed
+!data/processed/
+
+
 # Large AnnData intermediates if needed
 *.h5ad
 
